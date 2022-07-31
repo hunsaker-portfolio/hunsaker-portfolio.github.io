@@ -1,0 +1,127 @@
+/* Please insert all your CSS code into this document */
+body{
+  margin: 0;
+}
+/* STEP TWO: GLOBAL MODIFICATIONS*/
+body > header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  color: white;
+  padding-left: 5%;
+ background: #257515;
+}
+.clearfix {
+  overflow: auto;
+}
+body > header > h1 {
+  font-size: 3em;
+  padding-top: .5em;
+  margin: 0;
+}
+figure {
+  width: 324px;
+  height: 350px;
+  margin-left: 2.5%;
+  border: 1px solid #bdbdbd;
+}
+figcaption {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+img {
+  border: 1px solid #bdbdbd;
+  margin: 0 auto;
+  margin-left: 12px;
+  margin-top: 12px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  background: #C25E25;
+  clear: both;
+}
+footer a {
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+#wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.nav {
+  display: inline-block;
+  width: 19%;
+  vertical-align: top;
+  margin-left: 0;
+  background:#754C34;
+}
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+nav ul li {
+  font-size: 1.25em;
+  padding-left: 10%;
+  margin-bottom: 0.25em;
+  background: #C25E25;
+}
+nav ul li {
+  font-size: 1.25em;
+  padding-left: 10%;
+  margin-bottom: 0.25em;
+  background: #C25E25;
+}
+nav ul li:hover {
+  background: #DE6C2A 50%;
+}
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+.articles {
+  display: inline-block;
+  width: 75%;
+  overflow: hidden;
+  margin-right: 5%;
+  vertical-align: top;
+  border-left: 1px solid #bdbdbd;
+  min-height: 500px;
+}
+.article {
+  margin-left: 5%;
+}
+.article h2 {
+  font-size: 3em;
+}
+.article h3 {
+  font-size: 2em;
+  margin: 0.5em 0 0.5em 0;
+}
+.article p {
+  max-width: 800px;
+}
+a[href$="pdf"] {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/4/4d/Icon_pdf_file.png) no-repeat right;
+    padding-right: 18px;
+}
+@media only screen and (max-width: 730px) {
+  body > header > h1 {
+  font-size: 6vw;
+  }
+}
